@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "enter the number: ";
+    cout << "Enter the number: ";
     cin >> n;
     if (n % 5 == 0)
     {
-        cout << " " << n << "divisible by 5.";
+        cout << " " << n << " is divisible by 5.";
     }
     else
     {
-        cout << " Not divisible by 5.";
+        cout << " " << n << " is not divisible by 5.";
     }
     return 0;
 }
